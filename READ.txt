@@ -1,14 +1,9 @@
-Tara
+Hello, we worked using google drive.
 
-Page 1 HTML complete
--minor adjustments made to wireframe design due to splitting design and what was feasiable
+One of our members saved and reuploaded the file without overriding the existing
 
-Notes to css coder
+THEREFORE
+ONLY the code in "CFG Group Project 1.2 version" should be evaluated, the other files are outdated and i do not have the time to go through and change in case issues arise.
 
-!. All Text needs changing
-!. All images need to be sourced + added + linked correctly 
-!. Fonts need to be decided upon + linked + named 
-!. Padding 
-!. contact sectiom css
-!. Footer section css 
-!. Button links
+The images and resources are imported from "Team-7"
+
