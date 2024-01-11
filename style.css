@@ -1,0 +1,158 @@
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/variables-dark";
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/utilities";
+
+/*fonts*/
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #26a6c0;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: #135670;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #135670;
+  color: white;
+}
+
+h1 {
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+}
+
+.titleWeb
+{
+   color:#135670;
+}
+
+/* placing carousel captions at the very bottom of the image */
+.carousel-caption {
+  bottom: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #135670;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+/**//**//**//**//**//**//**//**//**//**//**//**/
+/**//**//**//*FOOTER CSS*//**//**//**//**//**/
+/**//**//**//**//**//**//**//**//**//**//**/
+.resources
+{
+    padding-left: 5%;
+}
+.resources
+{
+    color: #5b5c5e;
+    font-family: Montserrat, sans-serif; 
+    font-weight: 200;
+}
+.resources p 
+{
+    margin-top: -20px;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+
+.back-to-top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .back-to-top-button:hover {
+    background-color: #555;
+  }
+  

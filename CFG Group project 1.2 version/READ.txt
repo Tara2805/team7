@@ -1,0 +1,14 @@
+Tara
+
+Page 1 HTML complete
+-minor adjustments made to wireframe design due to splitting design and what was feasiable
+
+Notes to css coder
+
+!. All Text needs changing
+!. All images need to be sourced + added + linked correctly 
+!. Fonts need to be decided upon + linked + named 
+!. Padding 
+!. contact sectiom css
+!. Footer section css 
+!. Button links

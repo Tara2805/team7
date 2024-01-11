@@ -1,0 +1,104 @@
+body{
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: #26a6c0;
+    position: relative;
+  }
+
+  /* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: #135670;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #135670;
+  color: white;
+}
+
+  h1{
+    text-align: center;
+    padding-top: 20px;
+    color: #135670;
+  }
+
+  h2{
+    text-align: center;
+    padding-top: 20px;
+  }
+
+ 
+  img{
+    width: 100%;
+  }
+
+p {
+  text-align: center;
+}
+
+
+/**//**//**//**//**//**//**//**//**//**//**//**/
+/**//**//**//*FOOTER CSS*//**//**//**//**//**/
+/**//**//**//**//**//**//**//**//**//**//**/
+.resources
+{
+    padding-left: 5%;
+}
+.resources
+{
+    color: #5b5c5e;
+    font-family: Montserrat, sans-serif; 
+    font-weight: 200;
+}
+.resources p 
+{
+    margin-top: -20px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    text-align: left;
+}
+
+.back-to-top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .back-to-top-button:hover {
+    background-color: #555;
+  }
