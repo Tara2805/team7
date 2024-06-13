@@ -1,9 +1,5 @@
-Hello, we worked using google drive.
+Travel app by Team 7 for "Web development course 2023"
 
-One of our members saved and reuploaded the file without overriding the existing
-
-THEREFORE
-ONLY the code in "CFG Group Project 1.2 version" should be evaluated, the other files are outdated and i do not have the time to go through and change in case issues arise.
-
-The images and resources are imported from "Team-7"
-
+My Contributions:
+                 HTML for web page /index.html 
+                 JS for the site /app.js
